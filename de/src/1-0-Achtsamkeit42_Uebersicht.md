@@ -21,5 +21,4 @@
 - Möchtest du dein Leben selbst in die Hand nehmen?
 - Möchtest du neue Wege finden und erproben?
 - Möchtest du mehr über dich selbst lernen?
-
  
