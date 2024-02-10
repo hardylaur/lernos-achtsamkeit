@@ -26,7 +26,7 @@ Ablauf.](1-3-Woechentliche_Circle-Treffen.md)
 
 lernOS-Interessierte findest du in der [lernOS Community CONNECT](https://community.cogneon.de). 
 
-Dort gibt es auch den [lernOS Circlefinder](https://community.cogneon.de/c/lernos/lernos-circlefinder/) als Marktplatz für Circle-Angebote und -Gesuche.
+Der [Peerfinder](https://web.peerfinder.app/de) ist ein (Non-Profit-) Marktplatz für Circle-Angebote und -Gesuche rund um lernOS-Lernpfade und andere.
 
 **Praktische Tipps**
 
