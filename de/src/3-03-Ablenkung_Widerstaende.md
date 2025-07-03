@@ -150,7 +150,7 @@ Stücke eines Apfels) mit.
 ### BILD / Zitat der Woche: “The Monkey Mind”
 
 Schöne Illustration:
-[https://ronaldreichmann.com/dealing-with-your-monkey-mind](https://ronaldreichmann.com/dealing-with-your-monkey-mind)
+[Monkey Mind – Springende Gedanken](https://padma.de/p/monkey-mind/)
 
 ![](./images/image9.png)
 Bild von ElisaRiva auf
