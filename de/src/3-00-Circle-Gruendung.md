@@ -194,9 +194,8 @@ auf
 
 **Wenn Du noch etwas Zeit hast:**
 
--   Week 0: a best practice for effective Working Out Loud Circles -&gt; https://www.linkedin.com/pulse/week-0-best-practice-effective-working-out-loud-circles-julia-weber
+-   [A best practice for effective Working Out Loud Circles](https://www.linkedin.com/pulse/week-0-best-practice-effective-working-out-loud-circles-julia-weber)
 
 **Wenn Du mehr Zeit hast:**
 
--   The Circle Ways -&gt;
-    [http://www.thecircleway.net/circle-way-guidelines](http://www.thecircleway.net/circle-way-guidelines)
+-   [The Circle Ways](http://www.thecircleway.net/circle-way-guidelines)
