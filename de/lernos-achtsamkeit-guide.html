@@ -65,6 +65,10 @@
     img {
       max-width: 100%;
     }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
     h1, h2, h3, h4, h5, h6 {
       margin-top: 1.4em;
     }
@@ -108,8 +112,8 @@
      overflow: visible;
     }
     hr {
-      background-color: #1a1a1a;
       border: none;
+      border-top: 1px solid #1a1a1a;
       height: 1px;
       margin: 1em 0;
     }
@@ -157,17 +161,17 @@
     div.columns{display: flex; gap: min(4vw, 1.5em);}
     div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
     ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
       width: 0.8em;
       margin: 0 0.8em 0.2em -1.6em;
       vertical-align: middle;
     }
     .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
-  <!--[if lt IE 9]>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
-  <![endif]-->
 </head>
 <body>
 <header id="title-block-header">
@@ -1258,13 +1262,14 @@ href="https://pixabay.com/de/?utm_source=link-attribution&amp;utm_medium=referra
 class="header-section-number">3.1.9</span> Weiterführende Links:</h3>
 <p><strong>Wenn Du noch etwas Zeit hast:</strong></p>
 <ul>
-<li>Week 0: a best practice for effective Working Out Loud Circles
--&gt; https://www.linkedin.com/pulse/week-0-best-practice-effective-working-out-loud-circles-julia-weber</li>
+<li><a
+href="https://www.linkedin.com/pulse/week-0-best-practice-effective-working-out-loud-circles-julia-weber">A
+best practice for effective Working Out Loud Circles</a></li>
 </ul>
 <p><strong>Wenn Du mehr Zeit hast:</strong></p>
 <ul>
-<li>The Circle Ways -&gt; <a
-href="http://www.thecircleway.net/circle-way-guidelines">http://www.thecircleway.net/circle-way-guidelines</a></li>
+<li><a href="http://www.thecircleway.net/circle-way-guidelines">The
+Circle Ways</a></li>
 </ul>
 <p><img src="./images/OrangeLine.png" /></p>
 <h2 data-number="3.2" id="woche-1-energie-aufbauen-und-klarheit"><span
@@ -1407,15 +1412,17 @@ href="https://pixabay.com/de/?utm_source=link-attribution&amp;utm_medium=referra
 class="header-section-number">3.2.9</span> Weiterführende Links:</h3>
 <p><strong>Wenn Du noch etwas Zeit hast:</strong></p>
 <ul>
-<li><p>Apps zur Achtsamkeit: Headspace
-(https://www.headspace.com/de/headspace-meditation-app)</p></li>
-<li><p>7Mind ( https://www.7mind.de/ )</p></li>
-<li><p>Insight Meditations Timer ( https://insighttimer.com/ )</p></li>
-<li><p>Was Achtsamkeit im Zen bedeutet - Meditieren lernen ||
-Zen-Meister Hinnerk Polenski (18:06Min.) <a
-href="https://www.youtube.com/watch?v=hrFESHLiRmA">https://www.youtube.com/watch?v=hrFESHLiRmA</a><br />
-TIPP: Ab Min. 8:45 wird es spannend. Du kannst auch erst ab da
-ansehen.</p></li>
+<li>Apps zur Achtsamkeit:
+<ul>
+<li><a
+href="https://www.headspace.com/de/headspace-meditation-app">Headspace</a></li>
+<li><a href="https://www.7mind.de/">7Mind</a></li>
+<li><a href="https://insighttimer.com/">Insight Meditations
+Timer</a></li>
+</ul></li>
+<li>Worum es bei Achtsamkeit wirklich geht und warum sie uns als Konzept
+mehr schadet als nützt || Zen-Meister Hinnerk Polenski (7:38Min.) <a
+href="https://youtu.be/Cu4qZrmNbbc">https://youtu.be/Cu4qZrmNbbc</a></li>
 </ul>
 <p><strong>Wenn Du mehr Zeit hast:</strong></p>
 <ul>
@@ -1597,7 +1604,7 @@ class="header-section-number">3.3.9</span> Weiterführende Links</h3>
 Franz Jalics.mp3”. Die Übung dauert ca. 20 Minuten. Achte beim
 Nachspüren zu dieser Übung darauf, inwiefern Zeit und Raum bei der Übung
 eine Rolle spielten. <a
-href="https://archive.org/download/Achtsamkeit-42/Achtsamkeit42_Woche03_Atemwege_Zusatz_19min.mp3#">Achtsamkeit42_Woche02_Atemwege_Zusatz_19min.mp3</a></p></li>
+href="https://archive.org/download/Achtsamkeit-42/Achtsamkeit42_Woche02_Atemwege_Zusatz_19min.mp3">Achtsamkeit42_Woche02_Atemwege_Zusatz_19min.mp3</a></p></li>
 <li><p>Bodyscan (AOK Rheinland/Hamburg): <a
 href="https://www.youtube.com/watch?v=RLCg4mkhlAg">https://www.youtube.com/watch?v=RLCg4mkhlAg</a>
 =&gt; 13 Min.</p></li>
@@ -1761,8 +1768,8 @@ fest.</p></li>
 <h3 data-number="3.4.8" id="bild-zitat-der-woche-the-monkey-mind"><span
 class="header-section-number">3.4.8</span> BILD / Zitat der Woche: “The
 Monkey Mind”</h3>
-<p>Schöne Illustration: <a
-href="https://ronaldreichmann.com/dealing-with-your-monkey-mind">https://ronaldreichmann.com/dealing-with-your-monkey-mind</a></p>
+<p>Schöne Illustration: <a href="https://padma.de/p/monkey-mind/">Monkey
+Mind – Springende Gedanken</a></p>
 <p><img src="./images/image9.png" /> Bild von ElisaRiva auf <a
 href="https://pixabay.com/de/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2847508">Pixabay</a></p>
 <h3 data-number="3.4.9" id="weiterführende-links-3"><span
@@ -1863,7 +1870,7 @@ den entsprechenden Sinneskanal an. Ganz wichtig: Es gibt kein richtig
 oder falsch! Es gibt nur deine Wahrnehmung!</p>
 <table>
 <thead>
-<tr class="header">
+<tr>
 <th></th>
 <th style="text-align: center;">sehen</th>
 <th style="text-align: center;">hören</th>
@@ -1873,7 +1880,7 @@ oder falsch! Es gibt nur deine Wahrnehmung!</p>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>Weihnachten</td>
 <td style="text-align: center;"></td>
 <td style="text-align: center;"></td>
@@ -1881,7 +1888,7 @@ oder falsch! Es gibt nur deine Wahrnehmung!</p>
 <td style="text-align: center;"></td>
 <td style="text-align: center;"></td>
 </tr>
-<tr class="even">
+<tr>
 <td>Sonnenuntergang</td>
 <td style="text-align: center;"></td>
 <td style="text-align: center;"></td>
@@ -1889,7 +1896,7 @@ oder falsch! Es gibt nur deine Wahrnehmung!</p>
 <td style="text-align: center;"></td>
 <td style="text-align: center;"></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Wochenende</td>
 <td style="text-align: center;"></td>
 <td style="text-align: center;"></td>
@@ -2811,7 +2818,7 @@ class="header-section-number">3.9.8</span> BILD / Zitat der Woche:</h3>
 aufzuregen” aus “Ein Kurs in Wundern”</p>
 </blockquote>
 <blockquote>
-<p>“Finde Frieden mit Deinen ‘Arschengeln’”</p>
+<p>“Finde Frieden mit Deinen ‘Arschengeln’ ”</p>
 </blockquote>
 <p>Den Begriff „Arschengel“ verwendet Robert Betz, da die Menschen, die
 negative Gefühle in uns auslösen, meistens als „Arsch“ bezeichnet und
@@ -2863,199 +2870,199 @@ oder deinem Kind - die werden viel Spaß haben :-)</p>
 <col style="width: 35%" />
 </colgroup>
 <thead>
-<tr class="header">
+<tr>
 <th>Du bist …</th>
 <th></th>
 <th></th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>… geizig</td>
 <td>… schwach</td>
 <td>… ein Jammerlappen</td>
 </tr>
-<tr class="even">
+<tr>
 <td>… gehässig</td>
 <td>… ein Angsthase</td>
 <td>… selbstzerstörerisch</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>… ein Versager</td>
 <td>… perfektionistisch</td>
 <td>… leer</td>
 </tr>
-<tr class="even">
+<tr>
 <td>… feige</td>
 <td>… herzlos</td>
 <td>… raffgierig</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>… faul</td>
 <td>… verschlagen</td>
 <td>… ein Prolet</td>
 </tr>
-<tr class="even">
+<tr>
 <td>… hinterhältig</td>
 <td>… nachtragend</td>
 <td>… ein Tyrann</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>… schuld</td>
 <td>… dominant</td>
 <td>… ein Macho</td>
 </tr>
-<tr class="even">
+<tr>
 <td>… unfair</td>
 <td>… unterwürfig</td>
 <td>… sadistisch</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>… hinterlistig</td>
 <td>… ein Übertreiber</td>
 <td>… engstirnig</td>
 </tr>
-<tr class="even">
+<tr>
 <td>… oberflächlich</td>
 <td>… ein Streber</td>
 <td>… ein Dickschädel</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>… gedankenlos</td>
 <td>… machthungrig</td>
 <td>… maßlos</td>
 </tr>
-<tr class="even">
+<tr>
 <td>… starr</td>
 <td>… machtlos</td>
 <td>… enttäuschend</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>… ängstlich</td>
 <td>… geschmacklos</td>
 <td>… nichts wert</td>
 </tr>
-<tr class="even">
+<tr>
 <td>… ein Verlierer</td>
 <td>… ungebildet</td>
 <td>… streitsüchtig</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>… ein Zyniker</td>
 <td>… ein Betrüger</td>
 <td>… grob</td>
 </tr>
-<tr class="even">
+<tr>
 <td>… unflexibel</td>
 <td>… ignorant</td>
 <td>… ein Narzisst</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>… hochnäsig</td>
 <td>… seelenlos</td>
 <td>… ein Egoist</td>
 </tr>
-<tr class="even">
+<tr>
 <td>… arrogant</td>
 <td>… wertlos</td>
 <td>… ein Langweiler</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>… unreif</td>
 <td>… neidisch</td>
 <td>… ein Spieler</td>
 </tr>
-<tr class="even">
+<tr>
 <td>… inkompetent</td>
 <td>… schamlos</td>
 <td>… ein Schnüffler</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>… kleinlich</td>
 <td>… schmutzig</td>
 <td>… ein Weiberheld</td>
 </tr>
-<tr class="even">
+<tr>
 <td>… unbedeutend</td>
 <td>… alt</td>
 <td>… ein Frauenhasser</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>… skrupellos</td>
 <td>… bösartig</td>
 <td>… ein Sexist</td>
 </tr>
-<tr class="even">
+<tr>
 <td>… unehrlich</td>
 <td>… kalt</td>
 <td>… ein Möchtegern</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>… zwanghaft</td>
 <td>… uninteressant</td>
 <td>… eine Heulsuse</td>
 </tr>
-<tr class="even">
+<tr>
 <td>… ein Opfer</td>
 <td>… ein Manipulator</td>
 <td>… ein Arschloch</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>… ein Täter</td>
 <td>… lächerlich</td>
 <td>… eine Quasselstrippe</td>
 </tr>
-<tr class="even">
+<tr>
 <td>… zänkisch</td>
 <td>… nicht gut genug</td>
 <td>… paranoid</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>… kindisch</td>
 <td>… unsicher</td>
 <td>… zickig</td>
 </tr>
-<tr class="even">
+<tr>
 <td>… egoistisch</td>
 <td>… scheinheilig</td>
 <td>… Mittelmaß</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>… blöd</td>
 <td>… erbärmlich</td>
 <td>… unzuverlässig</td>
 </tr>
-<tr class="even">
+<tr>
 <td>… dumm</td>
 <td>… unversöhnlich</td>
 <td>… das Letzte</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>… langweilig</td>
 <td>… leer</td>
 <td>… verantwortungslos</td>
 </tr>
-<tr class="even">
+<tr>
 <td>… taktlos</td>
 <td>… dickhäutig</td>
 <td>… mutlos</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>… beleidigend</td>
 <td>… ein Taugenichts</td>
 <td>… verzweifelt …</td>
 </tr>
-<tr class="even">
+<tr>
 <td>… unpünktlich</td>
 <td>… ein Dieb</td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>… unverantwortlich</td>
 <td>… ein Heuchler</td>
 <td>Finde deine</td>
 </tr>
-<tr class="even">
+<tr>
 <td>… kleinlich</td>
 <td>… missgünstig</td>
 <td>eigenen Sätze</td>
@@ -3256,7 +3263,7 @@ fest.</p></li>
 class="header-section-number">3.10.8</span> BILD / Zitat der Woche</h3>
 <blockquote>
 <p>“Die Freiheit des Menschen liegt nicht darin, dass er tun kann, was
-er will, sondern, dass er nicht tun muss, was er nicht will.” Jean-
+er will, sondern, dass er nicht tun muss, was er nicht will. ” Jean-
 Jacques Rousseau</p>
 </blockquote>
 <p><img src="./images/image16.png" /> Bild von geralt auf <a
@@ -3541,7 +3548,7 @@ fest.</p></li>
 <h3 data-number="3.11.8" id="bild-zitat-der-woche-4"><span
 class="header-section-number">3.11.8</span> BILD / Zitat der Woche</h3>
 <blockquote>
-<p>“Ich bin Leben, das leben will, inmitten von Leben, das leben will”
+<p>“Ich bin Leben, das leben will, inmitten von Leben, das leben will ”
 Albert Schweitzer</p>
 </blockquote>
 <blockquote>
