@@ -150,19 +150,16 @@ Bild von Jordan\_Singh auf
 
 **Wenn Du noch etwas Zeit hast:**
 
--   Apps zur Achtsamkeit: Headspace
-    (https://www.headspace.com/de/headspace-meditation-app)
-
--   7Mind ( https://www.7mind.de/ )
-
--   Insight Meditations Timer ( https://insighttimer.com/ )
+- Apps zur Achtsamkeit:
+  - [Headspace](https://www.headspace.com/de/headspace-meditation-app)
+  - [7Mind](https://www.7mind.de/)
+  - [Insight Meditations Timer](https://insighttimer.com/)
 
 
--   Was Achtsamkeit im Zen bedeutet - Meditieren lernen \|\| Zen-Meister
-    Hinnerk Polenski (18:06Min.)
-    [https://www.youtube.com/watch?v=hrFESHLiRmA](https://www.youtube.com/watch?v=hrFESHLiRmA)  
-    TIPP: Ab Min. 8:45 wird es spannend. Du kannst auch erst ab da
-    ansehen.
+-   Worum es bei Achtsamkeit wirklich geht und warum sie uns als Konzept mehr schadet als nützt \|\| Zen-Meister
+    Hinnerk Polenski (7:38Min.)
+    [https://youtu.be/Cu4qZrmNbbc](https://youtu.be/Cu4qZrmNbbc)
+    
 
 **Wenn Du mehr Zeit hast:**
 
